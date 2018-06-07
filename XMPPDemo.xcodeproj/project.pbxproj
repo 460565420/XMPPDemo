@@ -7,25 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C3CB90FE4319FDEB49970ED /* Pods_XMPPDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EAD0B92393D14E17BAE5E30 /* Pods_XMPPDemo.framework */; };
 		F23377BC20C6241100416961 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F23377BB20C6241100416961 /* AppDelegate.m */; };
-		F23377BF20C6241100416961 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F23377BE20C6241100416961 /* ViewController.m */; };
 		F23377C220C6241100416961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23377C020C6241100416961 /* Main.storyboard */; };
 		F23377C420C6241400416961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F23377C320C6241400416961 /* Assets.xcassets */; };
 		F23377C720C6241400416961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23377C520C6241400416961 /* LaunchScreen.storyboard */; };
 		F23377CA20C6241400416961 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F23377C920C6241400416961 /* main.m */; };
+		F23377DF20C6796E00416961 /* XMPPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F23377DE20C6796E00416961 /* XMPPManager.m */; };
+		F23377E320C680E300416961 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F23377E120C680E300416961 /* RootViewController.m */; };
+		F23377E420C680E300416961 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F23377E220C680E300416961 /* RootViewController.xib */; };
+		F23377E620C691C200416961 /* managerPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = F23377E520C691C200416961 /* managerPhone.png */; };
+		F2A1D87520C7707300843E2E /* XMPPManager+MsgManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A1D87420C7707300843E2E /* XMPPManager+MsgManager.m */; };
+		F2A1D87820C7716000843E2E /* XMPPManager+FriendsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A1D87720C7716000843E2E /* XMPPManager+FriendsManager.m */; };
+		F2A1D87B20C8CAEC00843E2E /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A1D87A20C8CAEC00843E2E /* FriendsViewController.m */; };
+		F2A1D88220C8CBBD00843E2E /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A1D87D20C8CBBD00843E2E /* UIView+SDAutoLayout.m */; };
+		F2A1D88320C8CBBD00843E2E /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A1D88020C8CBBD00843E2E /* UITableView+SDAutoTableViewCellHeight.m */; };
+		F2A1D88D20C9033F00843E2E /* 111111.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2A1D88C20C9033E00843E2E /* 111111.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3EAD0B92393D14E17BAE5E30 /* Pods_XMPPDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMPPDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A23D381FAEB4C25AF06C8F /* Pods-XMPPDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPPDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMPPDemo/Pods-XMPPDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D08F33BBBE5CF1F204589044 /* Pods-XMPPDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPPDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMPPDemo/Pods-XMPPDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F23377B720C6241100416961 /* XMPPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMPPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F23377BA20C6241100416961 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F23377BB20C6241100416961 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F23377BD20C6241100416961 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F23377BE20C6241100416961 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F23377C120C6241100416961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F23377C320C6241400416961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F23377C620C6241400416961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F23377C820C6241400416961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F23377C920C6241400416961 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F23377D020C6260800416961 /* libCocoaAsyncSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCocoaAsyncSocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23377DD20C6796E00416961 /* XMPPManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMPPManager.h; sourceTree = "<group>"; };
+		F23377DE20C6796E00416961 /* XMPPManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPPManager.m; sourceTree = "<group>"; };
+		F23377E020C680E300416961 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F23377E120C680E300416961 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F23377E220C680E300416961 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		F23377E520C691C200416961 /* managerPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = managerPhone.png; sourceTree = "<group>"; };
+		F2A1D87320C7707300843E2E /* XMPPManager+MsgManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMPPManager+MsgManager.h"; sourceTree = "<group>"; };
+		F2A1D87420C7707300843E2E /* XMPPManager+MsgManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XMPPManager+MsgManager.m"; sourceTree = "<group>"; };
+		F2A1D87620C7716000843E2E /* XMPPManager+FriendsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMPPManager+FriendsManager.h"; sourceTree = "<group>"; };
+		F2A1D87720C7716000843E2E /* XMPPManager+FriendsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XMPPManager+FriendsManager.m"; sourceTree = "<group>"; };
+		F2A1D87920C8CAEC00843E2E /* FriendsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		F2A1D87A20C8CAEC00843E2E /* FriendsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
+		F2A1D87D20C8CBBD00843E2E /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		F2A1D87E20C8CBBD00843E2E /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		F2A1D87F20C8CBBD00843E2E /* SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAutoLayout.h; sourceTree = "<group>"; };
+		F2A1D88020C8CBBD00843E2E /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		F2A1D88120C8CBBD00843E2E /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		F2A1D88920C8DA2F00843E2E /* XMPPManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMPPManagerDelegate.h; sourceTree = "<group>"; };
+		F2A1D88C20C9033E00843E2E /* 111111.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 111111.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +64,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C3CB90FE4319FDEB49970ED /* Pods_XMPPDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BAD779C2BB236394FA80F93F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F23377D020C6260800416961 /* libCocoaAsyncSocket.a */,
+				3EAD0B92393D14E17BAE5E30 /* Pods_XMPPDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F23377AE20C6241100416961 = {
 			isa = PBXGroup;
 			children = (
 				F23377B920C6241100416961 /* XMPPDemo */,
 				F23377B820C6241100416961 /* Products */,
+				FD8A31298DD28BD9B670F85E /* Pods */,
+				BAD779C2BB236394FA80F93F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +101,51 @@
 		F23377B920C6241100416961 /* XMPPDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F2A1D88C20C9033E00843E2E /* 111111.jpg */,
+				F23377E520C691C200416961 /* managerPhone.png */,
+				F23377DD20C6796E00416961 /* XMPPManager.h */,
+				F23377DE20C6796E00416961 /* XMPPManager.m */,
+				F2A1D88920C8DA2F00843E2E /* XMPPManagerDelegate.h */,
+				F2A1D87320C7707300843E2E /* XMPPManager+MsgManager.h */,
+				F2A1D87420C7707300843E2E /* XMPPManager+MsgManager.m */,
+				F2A1D87620C7716000843E2E /* XMPPManager+FriendsManager.h */,
+				F2A1D87720C7716000843E2E /* XMPPManager+FriendsManager.m */,
 				F23377BA20C6241100416961 /* AppDelegate.h */,
 				F23377BB20C6241100416961 /* AppDelegate.m */,
-				F23377BD20C6241100416961 /* ViewController.h */,
-				F23377BE20C6241100416961 /* ViewController.m */,
+				F23377E020C680E300416961 /* RootViewController.h */,
+				F23377E120C680E300416961 /* RootViewController.m */,
+				F23377E220C680E300416961 /* RootViewController.xib */,
+				F2A1D87920C8CAEC00843E2E /* FriendsViewController.h */,
+				F2A1D87A20C8CAEC00843E2E /* FriendsViewController.m */,
 				F23377C020C6241100416961 /* Main.storyboard */,
 				F23377C320C6241400416961 /* Assets.xcassets */,
 				F23377C520C6241400416961 /* LaunchScreen.storyboard */,
 				F23377C820C6241400416961 /* Info.plist */,
 				F23377C920C6241400416961 /* main.m */,
+				F2A1D87C20C8CBBD00843E2E /* SDAutoLayout */,
 			);
 			path = XMPPDemo;
+			sourceTree = "<group>";
+		};
+		F2A1D87C20C8CBBD00843E2E /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				F2A1D87D20C8CBBD00843E2E /* UIView+SDAutoLayout.m */,
+				F2A1D87E20C8CBBD00843E2E /* UITableView+SDAutoTableViewCellHeight.h */,
+				F2A1D87F20C8CBBD00843E2E /* SDAutoLayout.h */,
+				F2A1D88020C8CBBD00843E2E /* UITableView+SDAutoTableViewCellHeight.m */,
+				F2A1D88120C8CBBD00843E2E /* UIView+SDAutoLayout.h */,
+			);
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+		FD8A31298DD28BD9B670F85E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72A23D381FAEB4C25AF06C8F /* Pods-XMPPDemo.debug.xcconfig */,
+				D08F33BBBE5CF1F204589044 /* Pods-XMPPDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F23377CD20C6241400416961 /* Build configuration list for PBXNativeTarget "XMPPDemo" */;
 			buildPhases = (
+				F3B9796A097F9347E2D9119A /* [CP] Check Pods Manifest.lock */,
 				F23377B320C6241100416961 /* Sources */,
 				F23377B420C6241100416961 /* Frameworks */,
 				F23377B520C6241100416961 /* Resources */,
+				8C5D248D28D9D354A66DD9E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,20 +209,76 @@
 			files = (
 				F23377C720C6241400416961 /* LaunchScreen.storyboard in Resources */,
 				F23377C420C6241400416961 /* Assets.xcassets in Resources */,
+				F23377E420C680E300416961 /* RootViewController.xib in Resources */,
+				F23377E620C691C200416961 /* managerPhone.png in Resources */,
 				F23377C220C6241100416961 /* Main.storyboard in Resources */,
+				F2A1D88D20C9033F00843E2E /* 111111.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C5D248D28D9D354A66DD9E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XMPPDemo/Pods-XMPPDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/KissXML/KissXML.framework",
+				"${BUILT_PRODUCTS_DIR}/XMPPFramework/XMPPFramework.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KissXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMPPFramework.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMPPDemo/Pods-XMPPDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3B9796A097F9347E2D9119A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XMPPDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F23377B320C6241100416961 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F23377BF20C6241100416961 /* ViewController.m in Sources */,
+				F2A1D87520C7707300843E2E /* XMPPManager+MsgManager.m in Sources */,
+				F23377DF20C6796E00416961 /* XMPPManager.m in Sources */,
+				F2A1D88220C8CBBD00843E2E /* UIView+SDAutoLayout.m in Sources */,
+				F2A1D87B20C8CAEC00843E2E /* FriendsViewController.m in Sources */,
 				F23377CA20C6241400416961 /* main.m in Sources */,
 				F23377BC20C6241100416961 /* AppDelegate.m in Sources */,
+				F2A1D87820C7716000843E2E /* XMPPManager+FriendsManager.m in Sources */,
+				F2A1D88320C8CBBD00843E2E /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				F23377E320C680E300416961 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +416,7 @@
 		};
 		F23377CE20C6241400416961 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72A23D381FAEB4C25AF06C8F /* Pods-XMPPDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +433,7 @@
 		};
 		F23377CF20C6241400416961 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D08F33BBBE5CF1F204589044 /* Pods-XMPPDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
